@@ -1,13 +1,15 @@
 def main():
     num=int(input("enter number:"))#asking user for input
-    def checkEvenOdd(): '''cfunction to check if the number entered is even or odd'''
+    def checkEvenOdd(): '''function to check if the number entered is even or odd'''
     if num%2==0: #checking for divisibity  
         print("the number is even")
     else:
         print("the number is odd")
         
-        """the function below is to find the cube and square of the number entered"""
+       ''' now we know if the number is even
+       or odd'''
     def squarecubenum():
+        """the function below is to find the cube and square of the number entered"""
 
          print("the square of the number is:",num**2) #squaring the number
          print("the cube of the number is:",num**3) #cubing the number
